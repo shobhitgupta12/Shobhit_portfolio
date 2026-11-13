@@ -73,6 +73,17 @@ Administrative dashboard developed during 6-month internship at Ervon Technology
 
 ---
 
+## 📌 Note: How to Run This Application
+
+To run the application locally on your machine:
+
+1. **Install dependencies:** Run `npm install` in your terminal.
+2. **Start the development server:** Run `npm run dev`.
+3. Open `http://localhost:5173/` in your browser to view the portfolio.
+4. *(Optional)* For a production build, run `npm run build` and preview with `npm run preview`.
+
+---
+
 ## 🔗 Connect
 
 - **GitHub:** [github.com/shobhitgupta12](https://github.com/shobhitgupta12)
