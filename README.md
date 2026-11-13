@@ -1,6 +1,6 @@
 # Shobhit Gupta — Personal Portfolio
 
-The personal portfolio website of **Shobhit Gupta**, an undergraduate engineering student at Punjab Engineering College (PEC), Chandigarh, with a focus on Full-Stack Web Development, Data Science, Artificial Intelligence, and Quantitative Finance.
+The personal portfolio website of **Shobhit Gupta**, undergraduate student at Punjab Engineering College (PEC), Chandigarh, focusing on Full-Stack Web Development, Data Science, AI, and Quantitative Finance.
 
 Live Website: [https://shobhitgupta-portfolio.vercel.app/](https://shobhitgupta-portfolio.vercel.app/)
 
@@ -70,25 +70,6 @@ Administrative dashboard developed during 6-month internship at Ervon Technology
 - **Entrepreneurship Certificate** — Wadhwani Foundation (March 2026)
 - **Startup Internship Trainee** — The Infopreneurs Club (March 2025)
 - **Software Engineering (12 Weeks)** — NPTEL / SWAYAM
-
----
-
-## 💻 Running Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/shobhitgupta12/Shobhit_portfolio.git
-cd Shobhit_portfolio
-
-# Install dependencies
-npm install
-
-# Run the dev server
-npm run dev
-
-# Build for production
-npm run build
-```
 
 ---
 
