@@ -1,0 +1,60 @@
+import { experience } from '../data/experience';
+import { achievements } from '../data/achievements';
+
+const QuickFacts = () => {
+  return (
+    <section className="section container border-t">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 className="font-mono text-tiny text-muted mb-4">EDUCATION</h3>
+          <div className="font-sans text-small">
+            <p style={{ color: 'var(--text-muted)' }}>{experience.education.degree}</p>
+            <p className="mt-1 text-white">Minor Specialisation: {experience.education.minor}</p>
+            <p style={{ color: 'var(--text-muted)' }} className="mt-2">{experience.education.university}</p>
+            <p style={{ color: 'var(--text-dim)' }} className="mt-1">{experience.education.period}</p>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="font-mono text-tiny text-muted mb-4">EXPERIENCE</h3>
+          <div className="flex flex-col gap-4">
+            {experience.roles.map((role, idx) => (
+              <div key={idx} className="font-sans text-small">
+                <p>{role.title}</p>
+                <p style={{ color: 'var(--text-muted)' }}>{role.company}</p>
+                <p style={{ color: 'var(--text-dim)' }} className="mt-1">{role.period}</p>
+                {role.description && <p style={{ color: 'var(--text-dim)' }} className="mt-1 text-xs">{role.description}</p>}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="md:col-span-2">
+          <h3 className="font-mono text-tiny text-muted mb-4">VERIFIED DATA</h3>
+          <ul className="font-sans text-small flex flex-col gap-2">
+            {achievements.map((item: string, idx: number) => (
+              <li key={idx} className="flex gap-4 border-b border-[#27272a] pb-2 last:border-0">
+                <span className="font-code" style={{ color: 'var(--stat-color)', opacity: 0.8 }}>{(idx + 1).toString().padStart(2, '0')}</span>
+                <span>{item}</span>
+              </li>
+            ))}
+            <li 
+              className="flex gap-4 pb-2 border-b border-transparent group/secret cursor-crosshair"
+              onMouseEnter={() => {
+                if (!window.sessionStorage.getItem('egg_fate')) {
+                  window.dispatchEvent(new CustomEvent('easter-egg-found', { detail: { name: "Unlimited Blade Works Egg" } }));
+                  window.sessionStorage.setItem('egg_fate', 'true');
+                }
+              }}
+            >
+              <span className="font-code text-dim opacity-0 group-hover/secret:opacity-40 transition-opacity duration-1000">42</span>
+              <span className="text-dim opacity-0 group-hover/secret:opacity-40 transition-opacity duration-1000 pointer-events-none text-[10px] italic">I am the bone of my sword...</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default QuickFacts;
