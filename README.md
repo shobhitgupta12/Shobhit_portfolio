@@ -1,126 +1,156 @@
-# Anunay Naman — Portfolio
+# Shobhit Gupta — Developer Portfolio
 
-A one-of-a-kind, interactive developer portfolio designed as a digital world. This is not a resume website — it's a spatial experience that progressively reveals technical depth, learning journey, and personal curiosity.
+An interactive, spatial developer portfolio crafted with React, TypeScript, Three.js, and GSAP. Designed as an immersive digital universe that showcases full-stack applications, data science expertise, algorithmic problem solving, student leadership, and market insights.
 
-## About Me
-**Anunay Naman**  
-*Machine Learning × Data Science × Backend × Algorithms × Systems*
+---
 
-I like understanding systems deeply enough to rebuild them, then breaking them again to see where they fail. My work focuses on real-time computer vision applications (like city-scale ANPR), end-to-end ML pipelines, backend architecture, and competitive programming.
+## 👨‍💻 About Me
 
-## Tech Stack
+**Shobhit Gupta**  
+*Full-Stack Developer × Data Science × Artificial Intelligence × Quantitative Finance*
 
-### Built With:
-- **Framework:** React + TypeScript (via Vite)
-- **Styling:** Tailwind CSS + Vanilla CSS (custom design system)
-- **3D / Particles:** Three.js (WebGL particle morphing system)
-- **Animations:** GSAP + ScrollTrigger (cinematic sequences, spatial navigation)
-- **Scrolling:** Lenis (buttery-smooth physics)
-- **Icons:** Lucide React
+- 🎓 **Undergraduate:** Punjab Engineering College (PEC), Chandigarh — B.Tech in Civil Engineering with a Minor in Computer Science (AI) (2024–2028).
+- 💡 **Philosophy:** *"I believe in building systems that work in the real world — not just in notebooks."*
+- 🚀 **Focus:** Bridging practical software engineering, robust full-stack architectures, data-driven intelligence, and analytical quantitative trading models.
 
-### My Personal Tech Stack:
-- **Machine Learning:** PyTorch, Scikit-learn, CatBoost, XGBoost, Computer Vision (YOLOv8, OpenCV), Pandas, NumPy
-- **Data Science:** Python, Statistics, EDA, Feature Engineering, MLOps, MLflow, DVC
-- **Backend:** Node.js, Express, FastAPI, Flask, MongoDB, PostgreSQL, PostGIS, Docker
-- **Algorithms:** C++, DSA (Striver A2Z), Dynamic Programming, Graphs, Trees
-- **Frontend:** React, TypeScript, JavaScript, Tailwind, Three.js, GSAP
+---
 
-## Architecture
+## 🛠️ Technical Stack
+
+### Portfolio Built With:
+- **Frontend Core:** React 19, TypeScript, Vite
+- **Styling & Design System:** Tailwind CSS, Custom Glassmorphism & Cyberpunk Design Tokens
+- **3D & Canvas Graphics:** Three.js (WebGL Particle Morphing Engine)
+- **Animations:** GSAP, ScrollTrigger (Spatial navigation, 3D room transformations, smooth choreography)
+- **Smooth Physics Scrolling:** Lenis Scroll
+- **Icons & UI:** Lucide React
+
+### Core Technical Proficiencies:
+- **Languages:** Python, JavaScript (ES6+), TypeScript, SQL, C++, HTML5, CSS3
+- **Frontend:** React.js, Next.js, Tailwind CSS, Context API, React Hooks, Responsive UI
+- **Backend & APIs:** Node.js, Express.js, FastAPI, RESTful APIs, JWT Authentication, OAuth, Firebase
+- **Databases & ORMs:** MongoDB, MySQL, Sequelize ORM, CRUD Architectures
+- **AI & Data Science:** Python Data Analysis (Pandas, NumPy), Gemini API Integration, NLP, Deep Learning & ML Foundations
+- **Data Structures & Algorithms:** Python-focused DSA (Striver A2Z Sheet, TakeUForward, Love Babbar)
+- **Tools & Platforms:** Git, GitHub, VS Code, Vite, Postman, Vercel, XAMPP, Windows 11
+
+---
+
+## 🚀 Key Projects
+
+### 1. [TrustedHands](https://trusted-hand.vercel.app/)
+- **Category:** Full-Stack Hyperlocal Gig-Worker Marketplace with AI
+- **Tech Stack:** React.js, FastAPI, Python, Google Gemini API, Vercel
+- **Features:** AI-powered assistant, image analysis support, location-based service discovery, secure authentication, provider profiles, booking and rating systems.
+- **Repository:** [shobhitgupta12/Trusted-Hands-main](https://github.com/shobhitgupta12/Trusted-Hands-main)
+
+### 2. [CareerCompass](https://matricks.vercel.app/)
+- **Category:** EdTech & Career Guidance Platform
+- **Tech Stack:** React.js, JavaScript, Node.js, REST APIs, Vercel
+- **Features:** Centralized career exploration, structured assessments, and intelligent guidance engines for students. Developed in context of Smart India Hackathon exploration.
+- **Repository:** [shobhitgupta12/CareercompassFinal](https://github.com/shobhitgupta12/CareercompassFinal)
+
+### 3. [Arabian Nights Quiz Challenge](https://pecathonfinal1one1.vercel.app/)
+- **Category:** Gamified Web Experience & Quiz Platform
+- **Tech Stack:** React, Vite, Tailwind CSS, JavaScript
+- **Features:** Arabian Nights-themed interactive quiz platform built for PECathon, featuring immersive UI design, timed challenges, and leaderboard mechanics.
+- **Repository:** [shobhitgupta12/ArabianNightsQuizChallenge](https://github.com/shobhitgupta12/ArabianNightsQuizChallenge)
+
+### 4. Soaraway Admin Panel
+- **Category:** Full-Stack Enterprise Admin Dashboard
+- **Organization:** Ervon Technology (6-Month Internship)
+- **Tech Stack:** React.js, Node.js, Express.js, MongoDB, JWT Authentication
+- **Features:** Secure authentication flow (Login/Register, Forgot/Reset password, Role-Based Access Control), REST API endpoint architecture, database schemas, and technical specification docs.
+
+---
+
+## 💼 Experience & Leadership
+
+- **Data Science Intern** — Sabudh Foundation in collaboration with STPI (July 2026 – Present)
+- **Full Stack Intern** — Ervon Technology (June 2025 – November 2025 · 6 months)
+- **Marketing Intern** — Mindenious (June 2025 – July 2025)
+- **Executive Body Member** — PEC ACM CSS (August 2026 – Present)
+- **Implementation Body Member** — PEC ACM CSS (August 2024 – July 2026 · 2 years)
+- **Training Class Representative (TCR)** — CDGC, Training & Placement Cell, PEC (January 2025 – Present)
+- **Assistant Secretary** — Environment Society, PEC (August 2024 – Present)
+- **Publicity Subhead** — PECFEST, PEC University of Technology (November 2025)
+- **Senior Creative Committee Member** — ASCE PEC Student Chapter
+
+---
+
+## 📜 Certifications
+
+- **Entrepreneurship Certificate** — Wadhwani Foundation (March 2026)
+- **Startup Internship Trainee** — The Infopreneurs Club (March 2025)
+- **Software Engineering (12-Week Program)** — NPTEL / SWAYAM
+- **Data Science Internship Selection** — Sabudh Foundation (Batch 17)
+
+---
+
+## 🏛️ Spatial Architecture & Sections
 
 ```
 src/
-├── data/                    # Centralized data (no hardcoded JSX)
-│   ├── profile.ts           # Identity & links
-│   ├── projects.ts          # Project definitions
-│   ├── learning.ts          # Course/resource data
-│   ├── afterHours.ts        # Anime, games, F1, football, etc.
-│   ├── particleForms.ts     # Particle silhouette point clouds
-│   └── skills.ts            # Skill clusters
+├── data/                    # Centralized, database-free JSON & TS configurations
+│   ├── profile.ts           # Bio, social handles, links
+│   ├── projects.ts          # Featured & archive project models
+│   ├── experience.ts        # Professional timeline & internship roles
+│   ├── achievements.ts      # Certifications, leadership & awards
+│   ├── skills.ts            # Frontend, Backend, Database, and DSA taxonomy
+│   ├── learning.ts          # Structured learning tracks (TUF, Chai aur Code, etc.)
+│   ├── afterHours.ts        # Trading, strategy games, cinema, chess, and civil engineering
+│   └── particleForms.ts     # 3D WebGL point-cloud coordinates
 │
 ├── components/
-│   ├── Hero/                # Interactive identity network + anime particles
-│   │   ├── Hero.tsx
-│   │   ├── HeroNetwork.tsx
-│   │   └── ParticleCharacter.tsx
-│   ├── About/               # System narrative + education
-│   ├── CurrentlyBuilding/   # Horizontal-scroll status board
-│   ├── Explore/             # ITom-inspired spatial world (GSAP ScrollTrigger)
-│   ├── Work/                # Compact project index
-│   ├── Algorithms/          # LeetCode stats + DSA knowledge graph
-│   ├── Learning/            # Course timeline (Striver, Krish Naik, etc.)
-│   ├── Skills/              # Interconnected skill clusters
-│   ├── AfterHours/          # Anime, games, F1, football, rabbit holes
-│   └── ...
+│   ├── Hero/                # Identity display + 3D particle morphing character
+│   ├── QuickFacts/          # Fast executive summary
+│   ├── About/               # System narrative & PEC educational foundation
+│   ├── CurrentlyBuilding/   # Horizontal-scrolling active status board
+│   ├── Explore/             # 3D spatial room navigator (Work, Lab, Learning, After Hours)
+│   ├── Work/                # Featured projects showcase
+│   ├── SideQuests/          # Lab, experiments & production internship review
+│   ├── Algorithms/          # Interactive DSA Knowledge Graph & TakeUForward status
+│   ├── Learning/            # Sequential educational timeline
+│   ├── Skills/              # Dynamic skill relationships graph
+│   ├── AfterHours/          # Personal interests, markets, crypto, and strategy games
+│   ├── Contact/             # Direct communication channels & resume unlock
+│   └── Footer/              # System status & credentials
 │
-└── App.tsx                  # Section flow orchestration
+└── App.tsx                  # Master viewport orchestration
 ```
 
-## Section Flow
+---
 
-| # | Section | Description |
-|---|---------|-------------|
-| 01 | **Hero** | Radial identity network + WebGL particle anime artwork |
-| 02 | **Quick Facts** | At-a-glance identity |
-| 03 | **About** | System narrative + Education + Data Science |
-| 04 | **Currently Building** | Horizontal-scroll developer status board |
-| 05 | **Explore World** | Spatial navigation — 4 interactive rooms |
-| 06 | **Selected Work** | Compact project links |
-| 07 | **Lab** | Rainbow Box (live embed) + Scribble recognition |
-| 08 | **Algorithmic Practice** | Dynamic LeetCode + DSA topic map |
-| 09 | **Learning Log** | Striver, Love Babbar, Krish Naik, Hitesh Choudhary |
-| 10 | **Skill Map** | Interconnected technology clusters |
-| 11 | **After Hours** | Anime, Manga, Games, F1, Football, Art, Rabbit Holes |
-| 12 | **Contact** | GitHub, LinkedIn, LeetCode, Email, Resume |
-
-## Commands
+## ⚡ Getting Started Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/shobhitgupta12/Shobhit_portfolio.git
+cd Shobhit_portfolio
+
 # Install dependencies
 npm install
 
-# Run dev server
+# Start Vite development server
 npm run dev
 
-# Production build
+# Create optimized production build
 npm run build
 
-# Preview production build
+# Preview production build locally
 npm run preview
 ```
 
-## Links
+---
 
-- **GitHub:** https://github.com/jackyhitter
-- **LinkedIn:** https://www.linkedin.com/in/anunaynaman/
-- **LeetCode:** https://leetcode.com/u/anunaynaman/
+## 🌐 Connect with Me
 
-## Visual Effects & Easter Eggs
+- **Portfolio:** [shobhitgupta-portfolio.vercel.app](https://shobhitgupta-portfolio.vercel.app/)
+- **GitHub:** [@shobhitgupta12](https://github.com/shobhitgupta12)
+- **LinkedIn:** [shobhit-gupta-38a77b331](https://www.linkedin.com/in/shobhit-gupta-38a77b331/)
+- **TakeUForward (TUF):** [shobhitguptaaa](https://takeuforward.org/profile/shobhitguptaaa)
+- **College:** [Punjab Engineering College (PEC), Chandigarh](https://pec.ac.in/)
 
-### Aesthetic Features
-- **Dynamic Preloader**: A liquid morphing "AN" bubble that uses conic-gradients and smooth GSAP animations to handle initial load.
-- **Ambient Flashlight Cursor**: A custom global ambient light that follows the cursor, casting a warm 400px amber glow over the entire portfolio. It dynamically brightens and interacts with elements underneath it without relying on complex, performance-heavy blend modes.
-- **Liquid Morphing Selection (hover-bubbly)**: Major interactive cards and tech pills utilize a unique, organic CSS animation (`.hover-bubbly`). When hovered, their strict rectangular borders morph smoothly via animated `border-radius`, creating a watery, breathing bubble effect combined with a soft emerald glow.
-- **Cinematic Overlays**: The site uses subtle CRT-style grid overlays, noise textures, and dim ambient code-terminal aesthetics to create a premium, immersive developer environment without resorting to "AI slop" standard themes.
+---
 
-### Developer Easter Eggs 🥚 & The Seeker Bot 🪄
-The portfolio features a global **Seeker Bot** (a bubbly orb that pops in from the left) to track and reward your discovery of hidden Harry Potter, Anime, and Developer culture references scattered throughout the UI. The empty spaces tempt you to illuminate them with your cursor (wand).
-
-**Hidden Secrets:**
-1. **The Matrix**: Open your developer console upon loading the site. *"Wake up, Neo..."*
-2. **Hitchhiker's Guide to ML**: Hover over the `MODEL` pipeline node in the ML_PROJECT card (Projects section) to discover why we *really* use `random_state=42`.
-3. **Jujutsu Kaisen**: Hover over the LeetCode terminal grind button to see its true domain expansion.
-4. **Cowboy Bebop**: Try highlighting the empty space at the very bottom right of the Footer. *"See you space cowboy..."*
-5. **Polyjuice Potion**: Follow the pulsing finger pointer `☜` by the particle change button in the Hero section.
-6. **Fate/stay night**: Hover over the `42` in the Quick Facts list. *"I am the bone of my sword..."*
-7. **C/C++ Trauma**: Hover over the `[EMAIL]` button in Contact. *"I don't bite. Unless it's a segmentation fault."*
-8. **React Abduction**: Illuminating the empty space in the Side Quests section.
-9. **Void Traversal**: Illuminating the vast darkness in the DSA Knowledge Graph section.
-10. **Marauder's Map**: Hovering the empty space beneath the NPTEL certification in About. *"I solemnly swear that I am up to no good."*
-11. **Chamber of Secrets**: Illuminating a tiny, invisible circle at the bottom right of the Explore Rooms grid.
-
-### Magical Reward 🎩
-At the very bottom of the portfolio, visitors can participate in **The Sorting Ceremony**. The Sorting Hat will analyze the user and sort them into a Hogwarts house (Gryffindor, Slytherin, Ravenclaw, or Hufflepuff). The site's magic is then attuned to that house, dynamically updating the global accent colors, tag colors, and even the ambient cursor glow!
-
-## License
-
-This project is personal. Code structure may be referenced but please do not copy the design wholesale.
+© 2026 Shobhit Gupta. All systems nominal.
