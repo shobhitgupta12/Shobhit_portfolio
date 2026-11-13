@@ -6,6 +6,17 @@ Live Website: [https://shobhitgupta-portfolio.vercel.app/](https://shobhitgupta-
 
 ---
 
+## 📌 Note: How to Run This Application
+
+To run the application locally on your machine:
+
+1. **Install dependencies:** Run `npm install` in your terminal.
+2. **Start the development server:** Run `npm run dev`.
+3. Open `http://localhost:5173/` in your browser to view the portfolio.
+4. *(Optional)* For a production build, run `npm run build` and preview with `npm run preview`.
+
+---
+
 ## 👨‍💻 About
 
 - **Name:** Shobhit Gupta
@@ -70,17 +81,6 @@ Administrative dashboard developed during 6-month internship at Ervon Technology
 - **Entrepreneurship Certificate** — Wadhwani Foundation (March 2026)
 - **Startup Internship Trainee** — The Infopreneurs Club (March 2025)
 - **Software Engineering (12 Weeks)** — NPTEL / SWAYAM
-
----
-
-## 📌 Note: How to Run This Application
-
-To run the application locally on your machine:
-
-1. **Install dependencies:** Run `npm install` in your terminal.
-2. **Start the development server:** Run `npm run dev`.
-3. Open `http://localhost:5173/` in your browser to view the portfolio.
-4. *(Optional)* For a production build, run `npm run build` and preview with `npm run preview`.
 
 ---
 
